@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Altas de Agencia de Automóviles</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="logo">
+                <img src="./Imagenes/Black and Brown Retro Automotive Logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="/ABM Agencia A/B/index.php">Bajas</a></li>
+                    <li><a href="/ABM Agencia A/M/index.php">Modificaciones</a></li>
+                </ul>
+            </nav>
+            <a href="/ABM Agencia A/MAIN/index.php" class="btn"><button>Inicio</button></a>
+        </header>
+    </main>
+    <h1>Formulario de Altas de Agencia de Automóviles</h1>
+    <form class="caja" action="ingreso.php" method="post">
+        <div class="box-form">
+            <label for="">Ingrese la descripción del vehículo: </label> 
+            <input type="text" name="descripcion" required>
+        </div>
+
+        <div class="box-form">
+            <label for="patente">Ingrese la patente del vehículo: </label>
+            <input type="text" name="patente" required>
+        </div>
+
+        <div class="box-form">
+            <label for="modelo">Ingrese el modelo: </label>
+            <input type="text" name="modelo" required>
+        </div>
+
+        <div class="box-form">
+            <label for="kilometros">Kilometraje del vehículo: </label>
+            <input type="text" name="kilometros" required>
+        </div>
+
+        <div class="box-form">
+            <label for="trip-start">Fecha de ingreso: </label>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2030-12-31" / required>
+        </div>
+
+        <div class="box-form">
+            <label for="estado">Estado del vehículo: </label>
+            <input type="text" name="estado" required>
+        </div>
+
+        <div class="box-form">
+            <label for="precio">Precio del vehículo: </label>
+            <input type="text" name="precio" required>
+        </div>
+
+        <div class="box-form">
+            <label for="codigo">Código de rubro: </label>
+            <input type="text" name="codigo" required>
+        </div>
+
+        <div class="box-form">
+            <input type="submit" name="Subir">
+        </div>
+
+</body>
+</html>

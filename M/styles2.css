@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background: linear-gradient(to right, #96ffa7, #6fd984);
+    font-family: 'Montserrat';
+    color: black;
+}
+
+.header{
+    background-color: #5cc572;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 5px 10%;
+    
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .nav_links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.header .nav_links li{
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    transition: all 0.2s;
+    font-size: 17px;
+    
+
+}
+
+.header .nav_links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav_links a{
+    font-size: 800;
+    color: black;
+    text-decoration: none;
+
+}
+
+.header .nav_links li a:hover{
+    color: #96ffa7;
+}
+
+.header .btn button{
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    padding: 14px 30px;
+    background: #96ffa7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btn button:hover{
+    background-color: #5cc572;
+    color: bisque;
+    transform: scale(1.1);
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #5cc572;
+}
+
+.links p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5vh;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+p{
+    margin-top: -1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.links p a {
+    text-decoration: none;
+    color: #1f532b;
+    transition: all 0.2s;
+
+}
+
+.links p a:hover{
+    color: #fff;
+}
+/* TABLA SQL */
+
+.title_sql{
+    margin: 4vh 0;
+    text-align: center;
+}
+
+table, tr, td{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #6fd984;
+    text-align: center;
+    padding: 10px;
+}
+
+tr{
+    background-color: #5cc572;
+}
+
+.tr1{
+    background-color: #83ec95;
+}
